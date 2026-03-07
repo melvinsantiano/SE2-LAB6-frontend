@@ -60,7 +60,7 @@ const isSubmitting = ref(false);
 const aiMessage = ref('');
 const newEntry = ref({ mood_level: 5, journal_entry: '' });
 
-const API_URL = 'mysql://root:MaJJUzQcWtvKjHWuWofItfTyknHftpBJ@switchyard.proxy.rlwy.net:11846/railway';
+const API_URL = 'mysql://root:MaJJUzQcWtvKjHWuWofItfTyknHftpBJ@mysql.railway.internal:3306/railway';
 
 const moodEmoji = computed(() => {
   const val = newEntry.value.mood_level;
