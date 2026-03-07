@@ -60,7 +60,7 @@ const isSubmitting = ref(false);
 const aiMessage = ref('');
 const newEntry = ref({ mood_level: 5, journal_entry: '' });
 
-const API_URL = 'https://se2-lab6-backend-5sgb.onrender.com';
+const API_URL = 'https://blissful-luck.up.railway.app';
 
 const moodEmoji = computed(() => {
   const val = newEntry.value.mood_level;
